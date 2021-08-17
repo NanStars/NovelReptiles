@@ -1,221 +1,256 @@
-![](./demo/images/preview.png)
+# 注：2020年最新连载教程请移步：[Python Spider 2020](https://github.com/Jack-Cherish/python-spider/tree/master/2020 "Python Spider 2020")
+
+# Python Spider
+
+原创文章每周最少两篇，**后续最新文章**会在[【公众号】](https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg)首发，视频[【B站】](https://space.bilibili.com/331507846)首发，大家可以加我[【微信】](https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg)进**交流群**，技术交流或提意见都可以，欢迎**Star**！
 
 <p align="center">
-  <a href="https://github.com/nsfw-filter/nsfw-filter/releases/" target="_blank">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/navendu-pottekkat/nsfw-filter?include_prereleases&style=flat-square">
-  </a>
-
-  <a href="https://github.com/navendu-pottekkat/nsfw-filter/commits/master" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/navendu-pottekkat/nsfw-filter?style=flat-square" alt="GitHub last commit">
-  </a>
-
-  <a href="https://github.com/navendu-pottekkat/nsfw-filter/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/navendu-pottekkat/nsfw-filter?style=flat-square&color=red" alt="GitHub issues">
-  </a>
-
-  <a href="https://github.com/navendu-pottekkat/nsfw-filter/pulls" target="_blank">
-    <img src="https://img.shields.io/github/issues-pr/navendu-pottekkat/nsfw-filter?style=flat-square&color=blue" alt="GitHub pull requests">
-  </a>
-
-  </br>
-
-  <a href="https://github.com/nsfw-filter/nsfw-filter#contribute" target="_blank">
-    <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square">
-  </a>
-
-  <a href="https://standardjs.com" target="_blank">
-    <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
-  </a>
-
-  <a href="https://www.producthunt.com/posts/nsfw-filter?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-nsfw-filter" target="_blank">
-    <img alt="ProductHunt" src="https://img.shields.io/badge/ProductHunt-210-green.svg?style=flat-square">
-  <a/>
-
-  <a href="https://github.com/nsfw-filter/nsfw-filter/blob/master/LICENSE" target="_blank">
-    <img alt="LICENSE" src="https://img.shields.io/github/license/navendu-pottekkat/nsfw-filter?style=flat-square&color=yellow">
-  <a/>
-
-  <a href="https://ctt.ac/4e4Jt" target="_blank">
-    <img src="https://img.shields.io/twitter/url?style=flat-square&logo=twitter&url=https://ctt.ac/4e4Jt" alt="GitHub tweet">
-  </a>
-</p>
-<hr>
-
-A Google Chrome/Firefox extension that blocks NSFW images from the web pages that you load using TensorFlowJS.
-
-*This extension **does NOT** collect/send any user data. All the operations on the images are done locally on the browser. No user data is being sent to a server for processing.*
-
-<p align="center">
-  <img alt='logo name' src='./demo/images/logo_name.png'>
+  <a href="https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg" target="_blank"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
+  <a href="https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-Jack%20Cui-lightgrey.svg" alt="公众号"></a>
+  <a href="https://space.bilibili.com/331507846"><img src="https://img.shields.io/badge/bilibili-哔哩哔哩-critical" alt="B站"></a>
+  <a href="https://www.zhihu.com/people/Jack--Cui" target="_blank"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt="知乎"></a>
+  <a href="https://blog.csdn.net/c406495762" target="_blank"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="CSDN"></a>
+  <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAA5gJtmezUJ6vli2hZvnN13iLnzKLpuF8gGHeS0iVlmNs/" target="_blank"><img src="https://img.shields.io/badge/toutiao-%E5%A4%B4%E6%9D%A1-important.svg" alt="头条"></a>
+  <a href="https://juejin.im/user/5ea2ca74e51d4546b50d5f9f" target="_blank"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="掘金"></a>
 </p>
 
-<p align="center">
-  <img alt="GitHub release" src="https://raw.githubusercontent.com/nsfw-filter/nsfw-filter/master/demo/images/demo_v3.gif">
-</p>
+## 声明
 
-When a web page is loaded, all the images remain hidden until they are found to be NSFW or not. If they are found to be NSFW, they remain hidden. Otherwise, they become visible.
+* 代码、教程**仅限于学习交流，请勿用于任何商业用途！**
 
-It is free and is currently supported on both Chrome and Firefox. We are working on porting this to Safari also.
-</br>
-<p align="center">
-  <a href="https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh" target="_blank">
-    <img src="./demo/images/chrome.gif" alt="Download now" width="160">
-  </a>
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/nsfw-filter/" target="_blank">
-    <img src="./demo/images/firefox.gif" alt="Download now" width="160">
-  </a>
-</p>
+## 目录
 
-<p align="center">
-<a href="https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh" target="_blank"><strong>Download for Chrome</strong></a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/nsfw-filter/" target="_blank"><strong>Download for Firefox</strong></a>
-</p>
+* [爬虫小工具](#爬虫小工具)
+    * [文件下载小助手](https://github.com/Jack-Cherish/python-spider/blob/master/downloader.py "悬停显示")
+* [爬虫实战](#爬虫实战)
+    * [笔趣看小说下载](https://github.com/Jack-Cherish/python-spider/blob/master/biqukan.py "悬停显示")
+    * [百度文库免费文章下载助手_rev1](https://github.com/Jack-Cherish/python-spider/blob/master/baiduwenku.py "悬停显示")
+    * [百度文库免费文章下载助手_rev2](https://github.com/Jack-Cherish/python-spider/blob/master/baiduwenku_pro_1.py "悬停显示")
+    * [《帅啊》网帅哥图片下载](https://github.com/Jack-Cherish/python-spider/blob/master/shuaia.py "悬停显示")
+    * [构建代理IP池](https://github.com/Jack-Cherish/python-spider/blob/master/daili.py "悬停显示")
+    * [《火影忍者》漫画下载](https://github.com/Jack-Cherish/python-spider/tree/master/cartoon "悬停显示")
+    * [财务报表下载小助手](https://github.com/Jack-Cherish/python-spider/blob/master/financical.py "悬停显示")
+    * [一小时入门网络爬虫](https://github.com/Jack-Cherish/python-spider/tree/master/one_hour_spider "悬停显示")
+    * [抖音App视频下载](https://github.com/Jack-Cherish/python-spider/tree/master/douyin "悬停显示")
+    * [GEETEST验证码识别](https://github.com/Jack-Cherish/python-spider/blob/master/geetest.py "悬停显示")
+    * [12306抢票小助手](https://github.com/Jack-Cherish/python-spider/blob/master/12306.py "悬停显示")
+    * [百万英雄答题辅助系统](https://github.com/Jack-Cherish/python-spider/tree/master/baiwan "悬停显示")   
+    * [网易云音乐免费音乐批量下载](https://github.com/Jack-Cherish/python-spider/tree/master/Netease "悬停显示")
+    * [B站免费视频和弹幕批量下载](https://github.com/Jack-Cherish/python-spider/tree/master/bilibili "悬停显示")
+    * [京东商品晒单图下载](https://github.com/Jack-Cherish/python-spider/tree/master/dingdong "悬停显示")
+    * [正方教务管理系统个人信息查询](https://github.com/Jack-Cherish/python-spider/tree/master/zhengfang_system_spider "悬停显示")
+* [其它](#其它)
 
-Read about the release in [**Hacker Noon**](https://hackernoon.com/nsfw-filter-introduction-building-a-safer-internet-using-ai-jq1e3u2f) or in [**Towards Data Science**](https://towardsdatascience.com/building-a-safer-internet-for-everyone-using-ai-175df5e02cee).
+## 爬虫小工具
 
-Model used - [**nsfwjs**](https://github.com/infinitered/nsfwjs) developed by [**Infinite Red, Inc.**](https://github.com/infinitered)
+* downloader.py:文件下载小助手
 
-Storing settings - [**reduxed-chrome-storage**](https://github.com/hindmost/reduxed-chrome-storage)
+	一个可以用于下载图片、视频、文件的小工具，有下载进度显示功能。稍加修改即可添加到自己的爬虫中。
+	
+	动态示意图：
+	
+	![image](https://raw.githubusercontent.com/Jack-Cherish/Pictures/master/9.gif)
 
-Reach out to us! Join the [**Slack channel**](https://join.slack.com/t/nsfwfilter/shared_invite/zt-gt1lgdiv-K2VR~UVUxwaTPWCLSmDiug).
+## 爬虫实战
+ 
+ * biqukan.py:《笔趣看》盗版小说网站，爬取小说工具
 
-# Table of contents
+	第三方依赖库安装：
 
-- [Usage](#usage)
-- [Development](#development)
-    - [Adding to Chrome](#adding-to-chrome)
-    - [Adding to Firefox](#adding-to-firefox)
-- [Contribute](#contribute)
+		pip3 install beautifulsoup4
 
-# Usage
+	使用方法：
 
-After adding the extension to Chrome/Firefox, it will light-up everytime you load a compatable website.
+		python biqukan.py
 
-When a page is loaded, the extension would hide all the images in the page and only show images that have been classified as **NOT NSFW**.
+ * baiduwenku.py: 百度文库word文章爬取
+	
+	原理说明：http://blog.csdn.net/c406495762/article/details/72331737
+	
+	代码不完善，没有进行打包，不具通用性，纯属娱乐。
+	
+ * shuaia.py: 爬取《帅啊》网，帅哥图片
 
-You can toggle(off/on) the extension from the ```chrome://extensions``` page in Chrome and ```about:debugging#/runtime/this-firefox``` in Firefox.
+	《帅啊》网URL：http://www.shuaia.net/index.html
 
-Open popup window to change NSFW Filter settings
+	原理说明：http://blog.csdn.net/c406495762/article/details/72597755
+	
+	第三方依赖库安装：
+	
+		pip3 install requests beautifulsoup4
+		
+ * daili.py: 构建代理IP池
 
-<table>
-  <tr>
-    <td vlign="center">
-      <img src="./demo/images/pin_popup.png" alt="Pin popup window">
-    </td>
-    <td vlign="center">
-      <img src="./demo/images/popup.png" alt="Popup window">
-    </td>
-  </tr>
-</table>
+	原理说明：http://blog.csdn.net/c406495762/article/details/72793480
+	
+	
+ * carton: 使用Scrapy爬取《火影忍者》漫画
 
+	代码可以爬取整个《火影忍者》漫画所有章节的内容，保存到本地。更改地址，可以爬取其他漫画。保存地址可以在settings.py中修改。
+	
+	动漫网站：http://comic.kukudm.com/
+	
+	原理说明：http://blog.csdn.net/c406495762/article/details/72858983
+	
+ * hero.py: 《王者荣耀》推荐出装查询小助手
 
-# Development
+	网页爬取已经会了，想过爬取手机APP里的内容吗？
+	
+	原理说明：http://blog.csdn.net/c406495762/article/details/76850843
+	
+ * financical.py: 财务报表下载小助手
 
-Clone this repository and navigate inside the project folder and install the dependencies by running:
+	爬取的数据存入数据库会吗？《跟股神巴菲特学习炒股之财务报表入库(MySQL)》也许能给你一些思路。
+	
+	原理说明：http://blog.csdn.net/c406495762/article/details/77801899
+	
+	动态示意图：
+	
+	![image](https://raw.githubusercontent.com/Jack-Cherish/Pictures/master/10.gif)
+	
+ * one_hour_spider:一小时入门Python3网络爬虫。
 
-```sh
-npm ci
-```
+	原理说明:
+	
+	 * 知乎：https://zhuanlan.zhihu.com/p/29809609
+	 * CSDN：http://blog.csdn.net/c406495762/article/details/78123502
+	
+	本次实战内容有：
+	
+	 * 网络小说下载(静态网站)-biqukan
+	 * 优美壁纸下载(动态网站)-unsplash
+	 * 视频下载
+	 
+ * douyin.py:抖音App视频下载
+ 
+	抖音App的视频下载，就是普通的App爬取。
 
-After installing the dependencies, build the project by executing:
+	原理说明:
+	
+	 * 个人网站：http://cuijiahua.com/blog/2018/03/spider-5.html
+	
+ * douyin_pro:抖音App视频下载（升级版）
+ 
+	抖音App的视频下载，添加视频解析网站，支持无水印视频下载，使用第三方平台解析。
 
-```sh
-npm run build
-```
+	原理说明:
+	
+	 * 个人网站：http://cuijiahua.com/blog/2018/03/spider-5.html
+	 
+ * douyin:抖音App视频下载（升级版2）
+ 
+	抖音App的视频下载，添加视频解析网站，支持无水印视频下载，通过url解析，无需第三方平台。
+	
+	原理说明:
+	
+	 * 个人网站：http://cuijiahua.com/blog/2018/03/spider-5.html
+	 
+	动态示意图：
+	
+	![image](https://github.com/Jack-Cherish/Pictures/blob/master/14.gif)
+	
+ * geetest.py:GEETEST验证码识别
+ 
+ 	原理说明:
+	
+	 无
+	
+ * 12306.py:用Python抢火车票简单代码
+ 
+	可以自己慢慢丰富，蛮简单，有爬虫基础很好操作，没有原理说明。
+	
+ * baiwan:百万英雄辅助答题
+ 
+	效果图：
+	
+	![image](https://github.com/Jack-Cherish/Pictures/blob/master/11.gif)
+	
+	原理说明：
+	
+	* 个人网站：http://cuijiahua.com/blog/2018/01/spider_3.html
+	
+  	功能介绍：
+	
+	服务器端，使用Python（baiwan.py）通过抓包获得的接口获取答题数据，解析之后通过百度知道搜索接口匹配答案，将最终匹配的结果写入文件（file.txt)。
+	
+	手机抓包不会的朋友，可以看下我的早期[手机APP抓包教程](http://blog.csdn.net/c406495762/article/details/76850843 "悬停显示")。
+	
+	Node.js（app.js）每隔1s读取一次file.txt文件，并将读取结果通过socket.io推送给客户端（index.html）。
+	
+	亲测答题延时在3s左右。
+	
+	声明：没做过后端和前端，花了一天时间，现学现卖弄好的，javascript也是现看现用，百度的程序，调试调试而已。可能有很多用法比较low的地方，用法不对，请勿见怪，有大牛感兴趣，可以自行完善。
 
-Run the tests
+ * Netease:根据歌单下载网易云音乐
+ 	
+	效果图：
+	
+	![image](https://github.com/Jack-Cherish/Pictures/blob/master/13.gif)
+	
+	原理说明：
+	
+	暂无
+	
+	功能介绍：
+	
+	根据music_list.txt文件里的歌单的信息下载网易云音乐，将自己喜欢的音乐进行批量下载。
 
-```sh
-npm run test
-```
+ * bilibili：B站视频和弹幕批量下载
+ 	
+	原理说明：
+	
+	暂无
+	
+	使用说明：
+	
+        python bilibili.py -d 猫 -k 猫 -p 10
 
-### Adding to Chrome
+        三个参数：
+        -d	保存视频的文件夹名
+        -k	B站搜索的关键字
+        -p	下载搜索结果前多少页
+	
+ * jingdong：京东商品晒单图下载
+ 
+ 	效果图：
+	
+	![image](https://github.com/Jack-Cherish/Pictures/blob/master/jd.gif)
+ 	
+	原理说明：
+	
+	暂无
+	
+	使用说明：
+	
+        python jd.py -k 芒果
+	
+         三个参数：
+        -d	保存图片的路径，默认为fd.py文件所在文件夹
+        -k	搜索关键词
+        -n  	下载商品的晒单图个数，即n个商店的晒单图
 
-To install the developer version follow the steps below. To just use the extension download from [**chrome.google.com/webstore/nsfw-filter**](https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh)
+ * zhengfang_system_spider：对正方教务管理系统个人课表，个人学生成绩，绩点等简单爬取
+ 
+ 	效果图：
+	
+	![image](/zhengfang_system_spider/screenshot/zf.png)
+ 	
+	原理说明：
+	
+	暂无
+	
+	使用说明：
+	
+        cd zhengfang_system_spider
+        pip install -r requirements.txt
+        python spider.py
 
-To run development version in clean environment use command:
+## 其它
 
-```sh
-npm run dev:chrome
-```
+ * 欢迎 Pull requests，感谢贡献。
+ 
+ 更多精彩，敬请期待！
 
-Or open Google Chrome and open the Extension Management page by navigating to ```chrome://extensions``` or by opening Settings and clicking Extensions from the bottom left.
+<a name="微信"></a>  <a name="公众号"></a>
 
-Enable Developer Mode by clicking the toggle switch next to Developer mode.
-
-Click the "Load Unpacked" button and select the extension directory(```.../dist```).
-
-<p align="center">
-  <img src="./demo/images/install_instructions.png" alt="Install Instructions">
-<p/>
-
-Voila! The extension is now installed and ready to be used!
-
-### Adding to Firefox
-
-To install the developer version follow the steps below. To just use the extension download from [**addons.mozilla/nsfw-filter**](https://addons.mozilla.org/en-US/firefox/addon/nsfw-filter/)
-
-To run development version in clean environment use command:
-
-```sh
-npm run dev:firefox
-```
-
-Or open Firefox and open the Debug Add-ons page by navigating to ```about:debugging#/runtime/this-firefox``` or by selecting it from Settings dropdown in the add-ons page.
-
-Click Load Temporary Add-on and select the ```manifest.json``` file from the ```.../dist``` directory.
-
-<p align="center">
-  <img src="./demo/images/install_instructions_firefox.png" width="470px" alt="Install Instructions">
-<p/>
-
-That's it! The extension is now ready to be used in Firefox!
-<!--
-### Activity Diagram
-
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/nsfw-filter/nsfw-filter/master/demo/UML/activity-diagram.plantuml)
--->
-# Contribute
-
-Please check the [**Contributing Guidelines**](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/.github/markdown/CONTRIBUTING.md) before contributing.
-
-You can also sponsor on [**Open Collective**](https://opencollective.com/nsfwfilter/donate) or [**become a Patron**](https://www.patreon.com/bePatron?u=41162696).
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/YegorZaremba"><img src="https://avatars3.githubusercontent.com/u/31797554?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yegor <3</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=YegorZaremba" title="Code">💻</a> <a href="#design-YegorZaremba" title="Design">🎨</a> <a href="#ideas-YegorZaremba" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="http://navendu.me"><img src="https://avatars1.githubusercontent.com/u/49474499?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Navendu Pottekkat</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=navendu-pottekkat" title="Code">💻</a> <a href="#content-navendu-pottekkat" title="Content">🖋</a> <a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=navendu-pottekkat" title="Documentation">📖</a> <a href="#design-navendu-pottekkat" title="Design">🎨</a> <a href="#ideas-navendu-pottekkat" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/anonacc"><img src="https://avatars3.githubusercontent.com/u/64102225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>anonacc</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Aanonacc" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/abhirammltr"><img src="https://avatars1.githubusercontent.com/u/32649851?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhiram V V</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=abhirammltr" title="Code">💻</a> <a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Aabhirammltr" title="Bug reports">🐛</a> <a href="#ideas-abhirammltr" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/yxlin118"><img src="https://avatars1.githubusercontent.com/u/54916304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yxlin118</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Ayxlin118" title="Bug reports">🐛</a> <a href="#ideas-yxlin118" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://clay.sh"><img src="https://avatars3.githubusercontent.com/u/16675291?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Clay McGinnis</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/pulls?q=is%3Apr+reviewed-by%3AClayMav" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://www.youtube.com/channel/UCPGv2tVqEt6iBFnnMTjnRBA"><img src="https://avatars1.githubusercontent.com/u/6668371?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brady Dowling</b></sub></a><br /><a href="#ideas-bradydowling" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://littlebluelabs.com"><img src="https://avatars2.githubusercontent.com/u/32261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mike Crittenden</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=mikecrittenden" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/garfieldbanks"><img src="https://avatars3.githubusercontent.com/u/12904270?v=4?s=100" width="100px;" alt=""/><br /><sub><b>garfieldbanks</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Agarfieldbanks" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/TitusRobyK"><img src="https://avatars1.githubusercontent.com/u/32787952?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Titus Roby K</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3ATitusRobyK" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/hsusanoo"><img src="https://avatars2.githubusercontent.com/u/35850056?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Haitam</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Ahsusanoo" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/lizhendong128"><img src="https://avatars3.githubusercontent.com/u/24618122?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lizhendong128</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Alizhendong128" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/Woctor-Dho"><img src="https://avatars3.githubusercontent.com/u/25572322?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Woctor-Dho</b></sub></a><br /><a href="#ideas-Woctor-Dho" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/miaokun-normal"><img src="https://avatars2.githubusercontent.com/u/67724210?v=4?s=100" width="100px;" alt=""/><br /><sub><b>miaokun-normal</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Amiaokun-normal" title="Bug reports">🐛</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://christopher-bradshaw.com"><img src="https://avatars1.githubusercontent.com/u/1205871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Bradshaw</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Akitsune7" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/wingman-jr-addon"><img src="https://avatars3.githubusercontent.com/u/55339824?v=4?s=100" width="100px;" alt=""/><br /><sub><b>wingman-jr-addon</b></sub></a><br /><a href="#ideas-wingman-jr-addon" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/Andrewrick1"><img src="https://avatars2.githubusercontent.com/u/31154843?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sagar paul</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=Andrewrick1" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/govza"><img src="https://avatars0.githubusercontent.com/u/1425574?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rasul</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3Agovza" title="Bug reports">🐛</a> <a href="https://github.com/nsfw-filter/nsfw-filter/commits?author=govza" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Gother01"><img src="https://avatars2.githubusercontent.com/u/65875436?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aldulkadir Beceri</b></sub></a><br /><a href="https://github.com/nsfw-filter/nsfw-filter/issues?q=author%3AGother01" title="Bug reports">🐛</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<img src="https://ftp.bmp.ovh/imgs/2020/07/112254f0199e3d4f.jpg" alt="wechat" width="400" height="200" align="bottom" />
