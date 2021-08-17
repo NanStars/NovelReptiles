@@ -251,6 +251,3 @@
  
  更多精彩，敬请期待！
 
-<a name="微信"></a>  <a name="公众号"></a>
-
-<img src="https://ftp.bmp.ovh/imgs/2020/07/112254f0199e3d4f.jpg" alt="wechat" width="400" height="200" align="bottom" />
