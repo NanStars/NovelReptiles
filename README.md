@@ -1,8 +1,4 @@
-# 注：2020年最新连载教程请移步：[Python Spider 2020](https://github.com/Jack-Cherish/python-spider/tree/master/2020 "Python Spider 2020")
-
 # Python Spider
-
-原创文章每周最少两篇，**后续最新文章**会在[【公众号】](https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg)首发，视频[【B站】](https://space.bilibili.com/331507846)首发，大家可以加我[【微信】](https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg)进**交流群**，技术交流或提意见都可以，欢迎**Star**！
 
 <p align="center">
   <a href="https://cuijiahua.com/wp-content/uploads/2020/05/gzh-w.jpg" target="_blank"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
