@@ -1,4 +1,7 @@
+# 负责连接网站处理http 协议
 import requests
+import time
+
 from lxml import etree
 
 print('请输入小说序号')
@@ -12,7 +15,7 @@ URL = url + b + a + c
 response = requests.get(URL)
 response.encoding = "utf-8"  # 编码转换
 
-html = response.text
+html = response.text  # 获取网页源代码
 ele = etree.HTML(html)
 # book_neir = ele.xpath("//div[@class='']/div[@class='tablel']/tbody/tr/td/a/@href")
 book_names = ele.xpath("//div[@class='content']/p/text()")  # 标签筛选规则
@@ -31,3 +34,5 @@ for book_name in range(len(book_names)):
 with open('{0}.txt'.format(e), 'w', encoding='utf-8') as file:
     file.writelines(s)
 print("输入完成")
+
+time.sleep(100)
