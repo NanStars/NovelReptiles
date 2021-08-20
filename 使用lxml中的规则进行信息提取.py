@@ -10,6 +10,9 @@ html = response.text
 ele = etree.HTML(html)
 book_names = ele.xpath("//div[@id='main']/div[@class='novellist']/ul/li/a/text()")
 book_urls = ele.xpath("//div[@id='main']/div[@class='novellist']/ul/li/a/@href")
-# s = ''
-print(book_names[0])
-print(book_urls[0])
+s = ''
+for book_name in range(len(book_names)):
+    s += book_names[book_name] + '\n' + book_urls[book_name] + '\n'
+with open('title.txt', 'w') as file:
+    file.writelines(s)
+print("输入完成")
