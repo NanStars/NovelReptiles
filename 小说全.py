@@ -16,3 +16,4 @@ for book_name in range(len(book_names)):
 with open('title.txt', 'w') as file:
     file.writelines(s)
 print("输入完成")
+#----------------------------------------------------------------url-----------book_name--------------------------------
