@@ -119,8 +119,6 @@ class Qiangpiao():
                         # 选定乘车人
                         self.driver.find_element_by_xpath(
                             f'//*[@id="normal_passenger_id"]/li/label[contains(text(),"{self.passenger}")]').click()
-                        # 如果乘客是学生，对提示点击确定
-
                         # 提交订单
                         self.driver.find_element_by_id('submitOrder_id').click()
                         time.sleep(2)
@@ -155,4 +153,4 @@ class Qiangpiao():
 if __name__ == '__main__':
     qiangpiao = Qiangpiao(a, b, c, d, e)
     qiangpiao.run()
-# 龙游 杭州 9-19 G7372 毛凌竹
+# 出发地 目的地 9-19 列车号 name
